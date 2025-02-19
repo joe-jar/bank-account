@@ -26,7 +26,7 @@ public class AccountService {
                 ? account.balance().add(amount)
                 : account.balance().subtract(amount);
 
-        // Validate sufficient funds for withdrawal
+        // Validate sufficient balance for withdrawal
         if (type == TransactionType.WITHDRAWAL && newBalance.compareTo(BigDecimal.ZERO) < 0) {
             throw new InsufficientBalanceException(String.format(
                     "Withdrawal of %s failed: insufficient balance. Current balance: %s",
