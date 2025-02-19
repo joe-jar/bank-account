@@ -2,21 +2,15 @@
 
 ## Description
 
----
-
 This project is a **Bank Account Management System** built with **Spring Boot**, allowing bank clients to deposit money, withdraw funds, and view account statements showing transaction details like dates, amounts, and balances. The development follows **Test-Driven Development (TDD)** and applies **SOLID principles** to keep the code structured and easy to maintain.
 
 ## Requirements
-
----
 
 - Deposit and Withdrawal functionalities
 - Account statement with date, amount, and balance
 - Statement printing functionality
 
 ## User Stories
-
----
 
 ### US 1:
 
@@ -32,8 +26,6 @@ This project is a **Bank Account Management System** built with **Spring Boot**,
 
 ## Technologies Used
 
----
-
 - Java 23
 - Spring Boot 3.4.2
 - Maven
@@ -46,8 +38,6 @@ This project is a **Bank Account Management System** built with **Spring Boot**,
 - JUnit 5 & Mockito
 
 ## Installation
-
----
 
 ### Clone the Repository
 
@@ -71,8 +61,6 @@ This project is a **Bank Account Management System** built with **Spring Boot**,
 
 
 ## Running Tests
-
----
 
 Unit tests are written following **Test-Driven Development (TDD)**, covering all valid and invalid use cases. To run the tests, use the following command:
 
