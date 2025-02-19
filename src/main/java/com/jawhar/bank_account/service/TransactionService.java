@@ -19,7 +19,7 @@ public class TransactionService {
         Long accountId = account.id();
         log.info("Generating bank statement for Account ID: {}", accountId);
 
-        // ✅ Guard clause for empty transactions
+        // Guard clause for empty transactions
         if (account.transactions().isEmpty()) {
             log.warn("Account ID {} has no transactions. Statement will be empty.", accountId);
             return "No transactions available for this account.";
