@@ -32,11 +32,6 @@ This project is a **Bank Account Management System** built with **Spring Boot**,
 - JUnit 5 & Mockito
 - SLF4J
 
-- Java 23
-- Spring Boot 3.4.2
-- Maven
-- JUnit 5 & Mockito
-
 ## Installation
 
 ### Clone the Repository
