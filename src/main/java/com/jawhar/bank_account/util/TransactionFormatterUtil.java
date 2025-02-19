@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 public final class TransactionFormatterUtil { // ✅ Marked as final (utility class)
 
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-    private static final DecimalFormat DECIMAL_FORMATTER = new DecimalFormat("#,##0.00");
+    private static final DecimalFormat DECIMAL_FORMATTER = new DecimalFormat("#,##0.00;-#,##0.00");
 
     private TransactionFormatterUtil() {
         throw new UnsupportedOperationException("This is a utility class and cannot be instantiated.");
