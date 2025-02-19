@@ -1,4 +1,4 @@
-# Bank Account Service
+# Bank Account Management
 
 ## Description
 
